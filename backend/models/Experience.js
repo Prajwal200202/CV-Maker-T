@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const ExperienceSchema = new mongoose.Schema({
   profileId: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'Profile'
+    ref: 'Profile',
   },
   company: String,
   position: String,
